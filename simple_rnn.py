@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 DATA_PATH = '../../data/novel.txt'
+# DATA_PATH = './temp/input.txt'
 
 import numpy as np
 
@@ -17,7 +18,7 @@ ix_to_char = {i:ch for i, ch in enumerate(chars)}
 
 # hyperparameters
 hidden_size = 100
-seq_length = 5
+seq_length = 25
 learning_rate = 1e-1
 
 # model hyperparameters
